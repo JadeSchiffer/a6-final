@@ -1,0 +1,94 @@
+.active {
+    font-weight: bold;
+}
+
+#active {
+    font-weight: bold;
+    color: gray;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+#my-logo{
+  font-size: 24px;
+  color: gray;
+}
+
+.nav li a {
+    color: gray;
+}
+
+.icon-bar {
+    background: gray;
+}
+/*above is the css for my nav bar*/
+
+#content-container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.content-text h1 {
+    font-size: 30px;
+    color: gray;
+    font-weight: 300;
+}
+
+#banner-container img {
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.content-text {
+    margin-bottom: 25px;
+}
+
+.insert-image {
+    margin-bottom: 25px;
+}
+
+.insert-image aside {
+    width: 100%;
+    line-height: 20px;
+    text-align: center;
+    font-size: 18px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.insert-image a {
+    color: grey;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.insert-image a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+.small-img img{
+ width: 100%;
+ height: 250px;
+ margin-bottom: 10px;
+}
+
+.big-img img{
+ width: 100%;
+ height: auto;
+ margin-bottom: 10px;
+}
+
+#out-link {
+    margin: 0;
+}
+
+.content-link p a {
+    text-decoration: none;
+    font-weight: bold;
+}

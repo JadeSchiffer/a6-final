@@ -1,0 +1,67 @@
+body {
+    background-color: white;
+    font-family: serif;
+}
+
+#active {
+    font-weight: bold;
+    color: gray;
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+#my-logo{
+  font-size: 24px;
+  color: gray;
+}
+
+.nav li a {
+    color: gray;
+}
+
+.icon-bar {
+    background: gray;
+}
+/*above is the css for my nav bar*/
+#content-row {
+    max-width: 1024px;
+    margin: auto;
+    margin-top: 100px;
+    height: 300px;
+}
+
+div#myimage {
+    height: 300px;
+    margin-left: 0;
+    float: left;
+}
+
+div#myimage img {
+    width: 100%;
+    margin-left: 0%;
+    height: 300px;
+    clear: both;
+}
+
+div#textDescription {
+    font-size: 16px;
+    float: left;
+    color: grey;
+    margin-top: 50px;
+    height: 200px;
+    margin-bottom: 250px;
+}
+
+div .row{
+    max-width: 1024px;
+    margin: 0 auto;
+    height: auto;
+}
+
+div#twitter-container {
+    max-width: 1024px;
+    padding: 5px;
+    margin: 0 auto;
+}

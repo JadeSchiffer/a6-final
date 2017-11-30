@@ -1,0 +1,179 @@
+<!DOCTYPE html>		
+	<html>			
+		<head>		
+			<title></title>
+			<link rel="stylesheet" href="../CSS/style-projectdetail.css">
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+		</head>
+		<body>
+			<!-- Below is my Navigation bar built using bootstrap -->
+            <nav class="navbar">
+                <div class="container-fluid">
+                    
+                    <!-- Jade Schiffer logo -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="../../index.html" class="navbar-brand" id="my-logo">Jade Schiffer</a>
+                    </div>
+                    
+                    <!-- Menu Items -->
+                    <div class="collapse navbar-collapse" id=main-menu> 
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a id="active" href="../../index.html">Projects</a></li>
+                            <li><a href="../HTML/aboutme.html">About Me</a></li>
+                            <li><a href="https://drive.google.com/file/d/18Quf9ZvLyK2rMYMdrm5oz-o_SlaIs97A/view?usp=sharing" target="_blank">Resume</a></li>
+                        </ul>
+                    
+                    </div>
+                </div>
+            </nav>
+            
+            <!-- Below is my content for the sensor handled page -->
+            
+            <div id="content-container">
+                
+                <!-- Banner Image -->
+                <div id="banner-image" class="row">
+                    <div id="banner-container" class="text-center">
+                        <img src="../Images/nova.png" >
+                    </div>
+                </div>
+                
+            <!-- Section with summary -->
+                <div id="" class="content-text row">
+                    <!-- Header -->
+                    <h1 class="col-sm-12 col-md-12">Summary</h1>
+                    <!-- Paragraph Text -->
+                    <p class="col-sm-12 col-md-12">
+                    I worked with Jennifer Chou and Sarah Moss-Horowitz to design a Conversational User Interface (CUI) for a retail setting. By utilizing the benefits of CUIs, namely, hands-free interaction and a wealth of information one word away, we designed Nova, an inconspicuous earpiece aimed at parents shopping for their kids with sizing, kids’ clothing market trends, and personalized closet recommender information.
+                    </p>
+                </div> 
+                
+            <!-- Section with problem space -->
+                <div id="" class="content-text row">
+                    <!-- Header -->
+                    <h1 class="col-sm-12 col-md-12">The Problem Space</h1>
+                    <!-- Paragraph Text -->
+                    <p class="col-sm-12 col-md-12">
+                    Existing smart technologies like integrated iPads in dressing rooms, smart mirrors, and augmented reality for superimposing clothing on customers’ reflections are prevalent already in the retail setting, but we wanted to design something that spoke to what we saw as the true nature of CUIs: handless, virtual assistants to simplify experiences. To have a richer understanding of the shopping experience, we broke it down into nine steps: <br> 
+                    1. Entering the store <br> 2. Looking through clothing racks/displays <br> 3. Finding an item <br> 4. Deciding to put item back or hold on to it <br> 5. Trying on clothes in front of outside mirrors <br> 6. Evaluating which clothes to bring to dressing room <br> 7. Trying on clothes in dressing room <br> 8. Purchasing clothes <br> 9. Excitement/regret after buying clothes <br>
+                    </p>
+                </div>
+                
+            <!-- Row of Images -->
+                <div class="insert-image row">
+                    <div id=image1 class="col-sm-12 col-md-6 small-img"> 
+                        <img src="../Images/Nova1.png"> 
+                    </div>
+                    <div id=image2 class="col-sm-12 col-md-6 small-img"> 
+                        <img src="../Images/Nova2.png"> 
+                    </div>
+                </div>
+                
+            <!-- Section with Ideation -->
+                <div id="" class="content-text row">
+                    <!-- Header -->
+                    <h1 class="col-sm-12 col-md-12">Ideation</h1>
+                    <!-- Paragraph Text -->
+                    <p class="col-sm-12 col-md-12">
+                    With our research insights in mind, we used exploratory scenarios testing, brainstorming, and experience prototyping explore how conversation can support users throughout the shopping experience. <br> <br>
+                Exploratory Scenarios: We developed 12 exploratory scenarios to consider possible interactions between a CUI and a user. We wrote each as a script and tested each scenario with ourselves embodying the roles of the users/CUI. Initially, we were focused on the decision making process within the dressing room experience. <br><br>
+                Sample Scenarios: Both of these scenario scripts consider ways in which a CUI can support decision making, but through different strategies. <br><br>
+                Drop-down Menu Decision-Making <br> <br>CUI has introduced self, and user would like CUI’s help in decision-making. CUI will offer help options in a drop-down menu format. <br> User: “I’m ready.”<br> CUI: “Great. What would you like help with: finding a new size, pairing an article of clothing with another article, opinions on your outfit, or outfit recommendations? If you would like help with something else, please say “something else”.” <br>
+                User: “Finding a new size.”<br> CUI: “Please scan the clothing tag now.”<br> User scans clothing tag <br> CUI: “Great. Your X Designer Y Design Shirt is a size 6. Would you like a bigger or smaller size?”<br> User: “A bigger size.”<br> CUI: “Okay, would you like a size 8, 10, or 12? If you would like a different size, please say “different size”.”<br> User: “10.” <br><br>
+                Flexible Response Decision  <br><br>
+                CUI has introduced self, and user would like CUI’s help in decision-making. CUI will offer help options based on user response. <br> User: “I’m ready.” <br>
+                CUI: “Great. What would you like help with?” User: “I need a bigger size for this shirt.”<br> CUI: “Ah, so the shirt is too small, so you would like to try a bigger size-- is that correct?” User: “Yes” <br>CUI: “What size would you like?”<br> User: “Size 10.”<br> CUI: “Great, please scan the tag of your shirt, and a sales associate will bring you a size 10.”<br> User scans shirt tag, CUI processes information, and CUI brings up the product image and description. CUI selects size 10 for the product and requests a sales associate to bring it to dressing room X. <br> <br>
+                Reframing the problem <br><br>
+                We realized that much of the shopping and decision making process, and key pain points, occurs outside of the dressing room, as shoppers deliberate which items to try on. We experimented with a number of scenarios outside the dressing room, focusing on developing a natural rapport to support the shopper throughout the shopping experience, rather than focusing on selling a product at the end.  <br>
+                    </p>
+                </div>
+                
+                <div class="insert-image row">
+                    <div id=image1 class="col-sm-12 col-md-12 big-img"> 
+                        <img src="../Images/Nova3.png">
+                    </div>
+                </div>
+                
+                
+                <!-- Section with Refined Concept -->
+                <div id="" class="content-text row">
+                    <!-- Header -->
+                    <h1 class="col-sm-12 col-md-12">Refined Concept</h1>
+                    <!-- Paragraph Text -->
+                    <p class="col-sm-12 col-md-12">
+                    Characteristic: Personal shopping assistant (more like a friend than sales associate), Shopping with a second opinion, Knows your closet, preferences, knows store layout, User has ownership over the earpiece <br> <br>
+                    Behaviors: Navigation alongside racks for suggestions, Suggestions regarding similar sizing and fit, Suggestions with user’s closet in mind, Feedback in line with the user’s preferences, Fastest routes to nearby mirrors, Navigation to nearest dressing room <br><br> 
+                    We tested our refined scenarios through experience prototyping with peers outside of our team, and were able to get insightful feedback from both participants and observers. <br><br>
+                    Feedback <br><br>
+                    A key piece of feedback from the experience prototyping was the problem of what happens when the user doesn’t know what they want to shop for. <br>
+                    When the CUI repeatedly asks user if they need help, it is seen as pushy, yet when the CUI is silent, it is seen as unhelpful. <br> We recognized that not all shoppers come in knowing what they want, increasing the need to refine our target persona for a compelling value proposition. <br>
+                    After brainstorming, we realized that people shopping for other people—friends shopping for friends, people shopping for their partners, parents shopping for their children are in a unique position of not being able to try on clothing, and often having a genuine need for help in finding appropriate items. <br> <br>
+                    This insight and pain point inspired us to design Nova.
+                </div>
+                
+                <div class="insert-image row">
+                    <div id=image1 class="col-sm-12 col-md-12 big-img"> 
+                        <img src="../Images/Nova4.png">
+                    </div>
+                </div>
+                
+                <!-- Section with Solution -->
+                <div id="" class="content-text row">
+                    <!-- Header -->
+                    <h1 class="col-sm-12 col-md-12">Refined Concept</h1>
+                    <!-- Paragraph Text -->
+                    <p class="col-sm-12 col-md-12">
+                    Nova is a small and flexible earpiece that is designed for parents shopping for their kids by helping them: <br><br>
+                    Easily navigate through the store based on shopping needs and goals. <br> Discover popular items for given demographic. <br> Find appropriate brand sizes based on personal measurements. <br><br>
+                    Key components: <br><br> Conversational Strategies<br> Natural prompts to uncover shopping goals <br> Parses response to generate reply<br> Establishes rapport by echoing and replying to sentiments <br> Sounds: pre-attentive, loading, success <br>
+                </div>
+                
+                <div class="insert-image row">
+                    <div id=image1 class="col-sm-12 col-md-12 big-img"> 
+                        <img src="../Images/Nova5.png">
+                    </div>
+                </div>
+                
+                <div class="insert-image row">
+                    <div id=image1 class="col-sm-12 col-md-12 big-img"> 
+                        <img src="../Images/Nova6.png">
+                    </div>
+                </div>
+                
+                <div class="insert-image row">
+                    <div id=image1 class="col-sm-12 col-md-12 big-img"> 
+                        <img src="../Images/Nova7.png">
+                    </div>
+                </div>
+                
+                <!-- Section with Next Steps -->
+                <div id="" class="content-text row">
+                    <!-- Header -->
+                    <h1 class="col-sm-12 col-md-12">Next Steps</h1>
+                    <!-- Paragraph Text -->
+                    <p class="col-sm-12 col-md-12">
+                    Next Steps: For next steps, we would have wanted to continue looking at the sound features of the CUI, giving appropriate levels and timing for feedback to users. Furthermore, much research on CUIs has taken place in the home setting where actively talking to a chatbot cannot be judged by the public eye, so we are unsure of whether or not users would want to or enjoy talking to Nova in such a public setting. Further research on conspicuousness of use of technology, sound effects, and user enjoyment is needed.<br>
+                    For more detailed descriptions, please visit my process book for the project here: <br> 
+                </div>
+                
+                <!-- Section with further reading link -->
+                <div id="out-link" class="content-link row">
+                    <p>For more detailed descriptions, please visit my process book for the project here:</p>
+                    <p>
+                        <a id="bold" href="https://drive.google.com/file/d/1fPmQ2Sy3znP2UjFp3xGARkzZbcXJ48cb/view?usp=sharing" target="_blank"> Nova Process Book 
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </body>
+    </html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>		
+	<html>			
+		<head>		
+			<title></title>
+			<link rel="stylesheet" href="../CSS/style-projectdetail.css">
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+		</head>
+		<body>
+            <!-- Below is my Navigation bar built using bootstrap -->
+            <nav class="navbar">
+                <div class="container-fluid">
+                    
+                    <!-- Jade Schiffer logo -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="../../index.html" class="navbar-brand" id="my-logo">Jade Schiffer</a>
+                    </div>
+                    
+                    <!-- Menu Items -->
+                    <div class="collapse navbar-collapse" id=main-menu> 
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a id="active" href="../../index.html">Projects</a></li>
+                            <li><a href="../HTML/aboutme.html">About Me</a></li>
+                            <li><a href="https://drive.google.com/file/d/18Quf9ZvLyK2rMYMdrm5oz-o_SlaIs97A/view?usp=sharing" target="_blank">Resume</a></li>
+                        </ul>
+                    
+                    </div>
+                </div>
+            </nav>
+            
+            <!-- Below is my content for the sensor handled page -->
+            
+            <div id="content-container">
+                
+                <!-- Banner Image -->
+                <div id="banner-image" class="row">
+                    <div id="banner-container" class="text-center">
+                        <img src="../Images/sensorhandledfinal.jpg" >
+                    </div>
+                </div>
+                
+                <!-- Section with summary -->
+                <div id="" class="content-text row">
+                    <!-- Header -->
+                    <h1 class="col-sm-12 col-md-12">Summary</h1>
+                    <!-- Paragraph Text -->
+                    <p class="col-sm-12 col-md-12">
+                    The Sensor-Handled Eradication Technique helps the user flush their troubles away with the simple hand wave at the motion sensor replacing a traditional toilet flushing pump. After a competitive analysis of the market, I saw that two main solutions for flushing already exist: a manual flush that requires the user to touch the pump or button to flush, a predictable but unhygienic solution and an automatic flushing system, often triggered by what the system perceives to be the motion of the user leaving the toilet. After sketching, ideating, and factoring in feedback from my classmates and professors, I chose to prototype the Sensor-Handled Eradication Technique for a predictable, accessible, and hygienic alternative to existing flushing systems. Next steps to consider include the placement of this model (near the pipes vs in a more accessible location for the differently-abled) as well as the mechanical integration of the model into existing plumbing systems to determine product actualization feasibility.
+                    </p>
+                </div>
+                
+                <!-- Section with problem space -->
+                <div id="" class="content-text row">
+                    <!-- Header -->
+                    <h1 class="col-sm-12 col-md-12">The Problem Space</h1>
+                    <!-- Paragraph text -->
+                    <p class="col-sm-12 col-md-12">
+                    The modern flushing system is a true conundrum. With more traditional plumbing, one pushes a button to flush, the toilet flushes when expected, and people feel comfortable and prepared for the sudden flushing motion but often would prefer not to touch one additional thing in their environment. With automatic systems with sensors, one additional opportunity not to touch one’s surroundings emerges, but sensors often miscalculate one’s proximity, surprising the user, quite literally, with their pants down. How can we keep the hygienic nature of the automatic flushing system without sacrificing our comfort and privacy for convenience?
+                    </p>
+                </div>
+                    <!-- Row of Images -->
+                <div class="insert-image row">
+                    <div id=image1 class="col-sm-12 col-md-6 small-img"> 
+                        <img src="../Images/manualflush.jpg"> 
+                        <aside> 
+                                <a> Comfortable but manual flushing</a>
+                        </aside> 
+                    </div>
+                    <div id=image2 class="col-sm-12 col-md-6 small-img"> 
+                        <img src="../Images/automaticflush.jpg"> 
+                        <aside> 
+                            <a> Hygienic but off-putting flushing </a>
+                        </aside>
+                    </div>
+                </div>
+                
+                <!-- Section with my sketches -->
+                <div id="" class="content-text row">
+                    <!-- Header -->
+                    <h1 class="col-sm-12 col-md-12">Ideation | My first sketches</h1>
+                    <!-- Paragraph text -->
+                    <p class="col-sm-12 col-md-12">
+                    Thought Process <br>
+                    Ideal State: Motion-sensing flushing system, with no need to touch anything<br> 
+                    Potential Issues: People’s familiarity with pushing a button to flush a toilet— how to indicate surface is not for touching? <br>
+                    Fingerprint vs Hand Waving Image: Hand waving is familiar for paper towel dispensers; fingerprint is familiar for iPhones (touch to unlock), but both offer the feedforward that flushing will likely occur after user performs action<br>  Is flushing enough feedback: Would people want to see some kind of light as well for both visual and audio feedback? Or would that be redundant? 
+                    </p>
+                </div>
+                <div class="insert-image row">
+                    <div id=image1 class="col-sm-12 col-md-12 big-img"> 
+                        <img src="../Images/flushsketches.jpg">
+                    </div>
+                </div>
+                
+                <!-- Section with my first prototype -->
+                <div id="" class="content-text row">
+                    <!-- Header -->
+                    <h1 class="col-sm-12 col-md-12">First prototype | A fingerprint-recognition system for flushing</h1>
+                </div>
+                    <!-- Row of Images -->
+                <div class="insert-image row">
+                    <div id=image3 class="col-sm-12 col-md-6 small-img"> 
+                        <img src="../Images/flushprototype1front.jpg"> 
+                        <aside> 
+                                <a> Comfortable but manual flushing</a>
+                        </aside> 
+                    </div>
+                    <div id=image4 class="col-sm-12 col-md-6 small-img"> 
+                        <img src="../Images/flushprototype1back.jpg"> 
+                        <aside> 
+                            <a> Hygienic but off-putting flushing </a>
+                        </aside>
+                    </div>
+                </div>
+                    <!-- Paragraph text -->
+                <div id="" class="content-text row">
+                    <p class="col-sm-12 col-md-12">
+                        I decided to start with prototyping the first of my sketches, the prototype that responded to the movement or touch of a fingerprint. The image of the fingerprint would indicate to the user that the user could either approach or touch the image with their finger, then, the light that would subsequently shine when recognizing the fingerprint would provide the feedforward that the system understood the intent of the user and would flush the toilet, and then the toilet itself flushing would provide feedback on how the user’s action affected the system. For my initial presentation, I decided to insert a small flashlight into the back of my prototype to manually represent the motion-sensing flushing system, and I poked holes in my drawing of the fingerprint at the front so that the light of the flashlight would shine through and communicate with the user. 
+                        When I presented my initial prototype, I received the feedback that the waving hand image was a better idea than the fingerprint because it would help me remain true to my idea of having a hygienic flushing system and that the light provided a nice visual element of feedforward, but a blinking light that transitioned into a constant light might be a more direct way of representing first recognizing motion and then preparing the user for flushing.
+                    </p>
+                </div>
+                
+                <!-- Section with prototype Iterations -->
+                    <!-- Header -->
+                <div id="" class="content-text row">
+                    <h1 class="col-sm-12 col-md-12">Solution | The Final Prototype</h1>
+                </div>
+                    <!-- Row of Images -->
+                <div class="insert-image row">
+                    <div id=image5 class="col-sm-12 col-md-4 small-img"> 
+                        <img src="../Images/../Images/finalbox.jpg"> 
+                        <aside> 
+                                <a> Finished outer shell of the prototype</a>
+                        </aside> 
+                    </div>
+                    <div id=image6 class="col-sm-12 col-md-4 small-img"> 
+                        <img src="../Images/flushmechanics.jpg"> 
+                        <aside> 
+                            <a> Remote-controlled light to deliver simulated inner mechanics </a>
+                        </aside>
+                    </div>
+                    <div id=image7 class="col-sm-12 col-md-4 small-img"> 
+                        <img src="../Images/../Images/sensorhandledfinal.jpg"> 
+                        <aside> 
+                            <a> Combining the elements: the finished prototype </a>
+                        </aside>
+                    </div>
+                </div>
+                    <!-- Row of Images -->
+                <div class="insert-image row">
+                    <div id=image8 class="col-sm-12 col-md-4 small-img"> 
+                        <img src="../Images/finalprototype.jpg"> 
+                        <aside> 
+                                <a> Set up for the final prototype</a>
+                        </aside> 
+                    </div>
+                    <div id=image9 class="col-sm-12 col-md-4 small-img"> 
+                        <img src="../Images/processflowflush.jpg"> 
+                        <aside> 
+                            <a> Process flow for the user interaction </a>
+                        </aside>
+                    </div>
+                    <div id=image10 class="col-sm-12 col-md-4 small-img"> 
+                        <img src="../Images/user-flush.jpg"> 
+                        <aside> 
+                            <a>User interacts with the final prototype </a>
+                        </aside>
+                    </div>
+                </div>
+                
+                <!-- Section with why does it work -->
+                <div id="" class="content-text row">
+                     <!-- Header -->
+                    <h1 class="col-sm-12 col-md-12">Why does it work? | Perceptual affordances, feedforward, and feedback</h1>
+                    <!-- Paragraph text -->
+                    <p class="col-sm-12 col-md-12">
+                    When the user sees the system with the waving hand and no other surrounding controls against a frosted, non-raised surface, there is no other action for the user to logically take besides trying to trigger a response from the system by mimicking the motion indicated by the waving hand. By using a non-raised frosted surface, I tried to ensure that the user would not attempt to touch the image, since it did not mimic a button. After the user waves near the image, yellow lights being blinking, increasing in speed until there is a constant green light, accompanied by the toilet flushing. Since the yellow lights occur after the user waves, it provides feedforward that the system has recognized the user’s motion and since the system’s purpose is to flush the toilet, it indicates to the user that the toilet will soon flush. Furthermore, once the constant green light is shown, the fact that green lights typically mean go, coupled with the sound of the toilet flushing gives both visual and audio feedback that the system understands that the user would like to flush and is honoring that request.
+                    </p>
+                </div>
+                
+                <!-- Section with Haven of a Toilet Stall -->
+                <div id="" class="content-text row">
+                     <!-- Header -->
+                    <h1 class="col-sm-12 col-md-12">The haven of a toilet stall | Context, feelings, and culture </h1>
+                    <!-- Paragraph text -->
+                    <p class="col-sm-12 col-md-12">
+                    When approaching this issue, I wanted to be mindful of the context in which the control sits. The public toilet stall is a private space, but it is also a dirty space. People don’t typically want to spend exorbitant amounts of time in that space, but while they are there, they want to feel confident in their privacy, having a moment to themselves. After all, as proven by movies, the bathroom is also a place for crying, for processing information, for having a moment alone. With this in mind, I wanted to design a control that stayed true to making the bathroom a cleaner space while also keeping it a haven for people to spend a small part of their busy days alone; by making my motion-sensing flushing system hands-free but not automated, I believe I was able to help people regain control in a private space in a cleanly and efficient manner.
+                    </p>
+                </div>
+                
+                 <!-- Section with Next Steps -->
+                <div id="" class="content-text row">
+                     <!-- Header -->
+                    <h1 class="col-sm-12 col-md-12">Next Steps | How and where would you see this in the real world? </h1>
+                    <!-- Paragraph text -->
+                    <p class="col-sm-12 col-md-12">
+                    After redesigning my prototype for final crits and hearing feedback, we started discussing where the Sensor-Handled Eradication Technique would be placed. Typically, the toilet flushing system is attached to the rest of the toilet, behind the user, likely placed there because of engineering reasons. However, if the system could be engineered differently, it would be interesting to see if the Sensor- Handled Eradication Technique could be placed to the side of the user or even close to the door, so the user could easily trigger flushing when leaving the bathroom stall. This would limit the amount of time the user spends in the stall because it would cut out the step of the user turning around completely just to flush. Federal and state legislation around disabilities and safety would have to be considered, as well as engineering protocol, before implementing this change, but it would be interesting to see how this system might be able to to further benefit the user’s ease, efficiency, and comfort in the bathroom.
+                    </p>
+                </div>
+                
+                <!-- Section with further reading link -->
+                <div id="out-link" class="content-link row">
+                    <p>For more detailed descriptions, please visit my process book for the project here:</p>
+                    <p>
+                        <a href="https://drive.google.com/file/d/1uDjfq8Mrc5J076jx7GNX_8BQGZPIanRF/view?usp=sharing" target="_blank">Sensor-Handled Eradication Technique Process Book</a>
+                    </p>
+                </div>
+                
+            </div>
+        </body>
+    </html>
